@@ -2,7 +2,7 @@
 title: "Displaying tree structures in Rmarkdown documents"
 layout: post
 comments: true
-tags: [data.tree, tree, Rmarkdown, R]
+tags: [data.tree, Rmarkdown, R]
 ---
 
 ## Question of the day  
@@ -16,6 +16,7 @@ It would be nice to display the same kind of output for any tree-based hierarchy
 The question has already been touched on [stackoverflow](<http://stackoverflow.com/questions/19699059/representing-directory-file-structure-in-markdown-syntax>) for markdown documents so here I would like to adress the issue with Rmarkdown syntax and R utilities specifically.  
 
 ## The data.tree solution
+
 
 
 
