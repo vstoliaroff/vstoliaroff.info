@@ -4,27 +4,40 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Hey there! My name is Vincent Stoliaroff. I am a born-again data scientist with a background in economics and statistics. I have started this blog to structure a few thoughts I had on several topics of interest to me: `R` programming, computer and data science (at large!).  
+Do you have questions or suggestions? Feel free to [email me](vstoliaroff@gmail.com) or [ask me on Twitter](https://twitter.com/vstoliaroff).
+Thanks for reading!
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+You can surf the entire website browsing through the following entries
 
-There are currently two themes built on Poole:
+### Home
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+Here I am blogging about thematized issues where the focus is a specific question to answer or a difficulty to overcome. 
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+I try to stick to the following outline which could be thought of as my *post manifesto* or *post sequence scenario*.
 
-## Setup
+* One Problem: A good post should start with a problem to solve rather than abstract development about tools and methodologies.  The story is the emphasis more than data, models and coding subtleties. 
+* A data science based attempt at solution.
+Here come the data science tools in play. Statistical facts and methods should help us tackle the issue at stake.  
+* Credits: 
+Trigger for posting and what brought me on track for solutions are mostly related to readings, job assignments I receive or news feeds. I refer them in this section.  
+* Factory: 
+Reproducibility of post and analysis should be ensured with links to my [Github](https://github.com/vincesto) or other repositories. 
 
-Some fun facts about the setup of this project include:
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+### Logbuch 
+My *vademecum* of code snippets. I throw there any piece of program that I may have used once and could reapply in other circumstances. I use it as a quick index for code refactoring techniques and  
+To keep it light, I link most of the entries to Gist or other code repos.
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+### Tags
+If this blog becomes big one day, you should find your way into it by searching relevant Tags here.  
 
-Thanks for reading!
+### Blogroll
+Inspirational bloggers, stimulating readings and enlightening references are recorded here. 
+
+
+
+
+
+

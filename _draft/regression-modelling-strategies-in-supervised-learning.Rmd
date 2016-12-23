@@ -1,0 +1,165 @@
+---
+title: "Modeling Strategies in Supervised Learning"
+author: "Vincent Stoliaroff"
+date: "October 31, 2016"
+output:
+  pdf_document: 
+    fig_caption: true
+#    keep_tex: true
+    toc: true
+    toc_depth: 4
+    number_sections: true
+---
+
+```{r setup, include=FALSE,echo=FALSE, eval=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# Main function in rms:
+lrm()
+print(lrm)
+plot(summary(Def~Diet+Sex+cut2(Age,c(0,20,50,70,90))))
+
+```
+
+
+
+# Introduction
+These notes should be used as a "How-to" perform a modelization in the context of supervised learning. They are based on the books of F. Harrel and some users posts on [Cross-Validated](http://stats.stackexchange.com/). 
+
+Working Hypothesis  
+Dependant Variables  
+
+
+# Data Preprocessing (Massaging the Raw Data)
+## Data Tidying  
+(Hadley Wickham)
+
+In tidy data  
+
+1.  Each variable forms a column.
+2.  Each observation forms a row.
+3.  Each type of observational unit forms a table.
+
+## Data Cleansing
+*Only if imputation is not an option, you should get rid of every obviously inconsistent data at this step*  
+
+# Univariate Data Analysis 
+*At this step, you would analyse the distribution and other key statistics of every single factors at hand. Just describe what you see but do not try to analyse the association of IV and DV yet!*  
+
+## Analytical Categories
+### Discrete vs Continous  
+### Space/Time dependant vs non time dependant   
+
+### Data Reduction
+#### Variable Clustering  
+- Oblique Rotation principal Component  
+- Hierarchical cluster Analysis on an appropriate similarity matrix
+
+
+## Missing Data & Imputation  
+
+
+
+# Multivariate Data Analysis & Modeling
+*Pre-specification vs. Empirical search. The more complex a model is, the more likely it will overfit the data. Complexity can be defined as the number of free parameters in the model. When searching for the optimal model, if one uses the data at hand ("data guided modeling"), there is a risk to add phantom degree of freedom namely complexity which won't be accounted in the final model, hence a higher overfitting risk*
+
+## Pre-specification of Model/Predictor complexity
+### Model equation
+- Logistic Regression  
+- Classification and regression Trees  
+
+### Choice of predictors
+#### Optimal Number (degree of freedom)
+##### Rule of thumb  
+p<m/15 where m="limiting sample size"
+
+##### Schrinkage factor estimate
+page 87
+
+
+
+
+## Data guided Model/Variable Selection techniques
+*Remember that every techniques described under pertain somehow to p-value hacking/data dregding because the modeler look at the data first and choose the model afterwards. See a great explanation from [here](http://stats.stackexchange.com/questions/20836/algorithms-for-automatic-model-selection/20856#20856)*
+
+
+### Graphical Tools for validating model assumptions / exploring alternative specification
+<!-- See Harrel page 33 -->
+#### For continuous dependant variables
+- Analysis of residuals  
+- Scatterplot: If need be: stratify the sample by level of categorical covariates or quantile groups of continuous covariates    
+- Non parametrical Smoothers. Ex: spline. The spline can indicate the form of the covariate transformation (ex: log). The spline itself can be used for transformation
+
+#### For categorical dependant variables
+
+<!-- See Harrel page 81 -->
+### Factors Transformation
+<!-- Harrel page 18 -->
+<!-- https://people.duke.edu/~rnau/whatuse.htm -->
+#### Basis Expansion of Factors (Non linear Transformation)
+- Exponentiation  
+- Log: See [here](http://stats.stackexchange.com/questions/298/in-linear-regression-when-is-it-appropriate-to-use-the-log-of-an-independent-va)
+- IHS-Transformationen (Burbidge et al - 1988)  
+- Spline  
+
+#### Scaling
+<!-- See Harrel page 81 -->
+
+### Interactions terms
+
+### Variable selection  
+
+#### Preselection ("Expert Judgment")  
+*From Long List to Short List*
+See also Data Reduction
+
+#### Algorithmic Stepwise selection
+*These algorithms are not wrong in itself, but they were devised to test only pre-specified hypothesis*
+
+##### Idea
+- Forward  
+- Step-down  
+- Backward elimination   
+##### Stopping rules  
+
+#### Univariable Screening  
+Harrel page 72
+
+
+### Statistical Indicators for model selection
+#### AIC
+
+
+## Between pre-specification and empirical search
+*valid conditional use of the techniques described in (B)*
+
+
+### Stepwise algorithms  
+Use it after a global test of no regression (Harrel page 69)  
+
+
+
+
+# Final Model 
+
+## Description
+Interprétation of parameters
+
+## Validation
+### External
+### Internal 
+
+#### Cross Validation
+#### Bootstrapping
+
+
+## Decision Rule (For Dichotomic models)
+*Utility/Cost/Loss Function*  
+Which Cut-off to use?  
+False Positive Cost is certainly different from False Negative Cost.
+Leave the cut-off choice to the decision maker
+
+# Conclusion: suggest possible improvement
+
+- Other models
+
+

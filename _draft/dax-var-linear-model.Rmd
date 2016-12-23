@@ -1,0 +1,50 @@
+---
+title: "Compute DAX VaR with linear Model"
+output: github_document
+---
+
+
+It should be the occasion to review the use of 
+- xlsx Package
+- dplyr Package
+- linear model for VaR
+- a bit of ggplot2 utilities for plotting and backtesting of the VaR
+
+
+## Get your Data
+
+The composition of the Index, as well as the closing price of its constituents is published daily by the Deutsche Börse
+The url is simple to resolve: 
+`http://www.dax-indices.com/MediaLibrary/Document/WeightingFiles/09/DAX_ICR.20160930.xls`
+
+A basic loop on dates and the use of `xlsx` package to extract the relevant information are used to save the Price and Weights 
+
+```{r}
+as.character(seq(as.Date("2009/12/01"),as.Date("2016/09/30"),by="day"))
+library("gdata")
+data  <- read.xls(xls="http://www.dax-indices.com/MediaLibrary/Document/WeightingFiles/09/DAX_ICR.20160930.xls",
+                  sheet=2,
+                  header=TRUE,
+                  skip=2)
+
+data  <- read.xls(xls="http://www.dax-indices.com/MediaLibrary/Document/WeightingFiles/09/DAX_ICR.20161001.xls",
+                  sheet=2,
+                  header=TRUE,
+                  skip=2)
+                  
+head(data)
+
+
+```
+
+In a final step, we aggregate every dataset in one data frame
+
+<http://www.boerse.de/dividenden/Dax-Performance-Index-gegen-Kurs-Index/>  
+
+
+
+
+
+
+
+

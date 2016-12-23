@@ -1,0 +1,46 @@
+---
+title: "Using geom_smooth for predictor variable transformation"
+author: "Vincent"
+date: "November 12, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Transformation 
+
+See the .Rmd file regression-modelling-strategies... 
+
+
+# Using geom_smooth 
+
+See the help page for `rms::val.prob` and for `ggplot2::geom_smoother`
+
+```{r, }
+set.seed(1)
+n <- 200
+x1 <- runif(n)
+logit <- 2*exp(x1)-1
+P <- 1/(1+exp(-logit))
+y <- ifelse(runif(n)<=P, 1, 0)
+d <- data.frame(x1,y)
+
+# Example from help page of geom_smooth
+binomial_smooth <- function(...) {
+  geom_smooth(method = "glm", method.args = list(family = "binomial"), ...)
+}
+
+ggplot(d, aes(x1, y)) +
+  geom_jitter(height = 0.05) +
+  binomial_smooth()
+
+
+ggplot(d, aes(x1, y)) +
+  geom_jitter(height = 0.05) +
+  binomial_smooth(formula = y ~ exp(x1))
+
+
+```
+

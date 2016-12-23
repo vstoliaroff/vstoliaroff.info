@@ -1,0 +1,86 @@
+*****************
+* Tags
+
+- R
+- R-package
+- data-visualisation
+- c++
+- famous-dataset
+- finance
+- VaR
+
+
+
+*****************
+* post ideas.
+
+- EM algorithmus pour differencier arriäre plan et avant-plan dans une image
+- compression avec nuees dynamiques dans une shiny app
+http://www.tsi.enst.fr/pages/enseignement/ressources/mti/RVB_ou_LAB/html/mti.html
+- rmd template pour post in jekyll
+	http://rmarkdown.rstudio.com/developer_document_templates.html
+	Package it in vstoliaroff
+- comparison of color space: the case of distance
+- the best graph to show result of election gewichtet (see vignette of package colorspace)
+
+- network dans la tetralogie
+- bit operation in R 
+	boolean logic
+	mention the 8 bit history (based on human vision)
+- R as an interface
+	General philosophy
+	2 references:
+		https://www.rstudio.com/rviews/2016/10/12/interview-with-j-j-allaire/
+		bouquin de John M Chambers: "Extending R"
+- Tokenizing text: tidyverse vs. tm
+	https://cran.r-project.org/web/packages/tidytext/vignettes/tidytext.html  
+- binomial test with dependancies
+- blockchain neo4j
+- cholesky decomposition
+- circles in circle
+	thema:
+		coordonnees polaires
+		optimisation
+
+- clean session in R
+See https://bookdown.org/yihui/bookdown/new-session.html
+"it can be very tricky and difficult to restore a running R session to a completely clean state if you use the M-K approach. For example, even you detach/unload packages loaded in a previous chapter, R will not clean up the S3 methods registered by these packages."
+
+- Clothing concept in modeling
+
+- Fitting and overfitting
+Schrinkage (clothing is sometimes pre schrunk to avoid bein shrunk further once it is purchased...). 
+So why not embedding the shrinking of coef into the estimation process -> underfit the data at hand to have a good fit of the model on test data.
+
+- comparison fonction de perte
+- dogs of the dow dax
+- grid vs graphic: example de graphiques:
+	Cantor diagonal argument
+	map geographique
+	goutte d'encre
+	retraite de russie
+
+- Sales catalog classification
+http://nlp.stanford.edu/IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1.html
+https://www.datascience.net/fr/challenge/20/details
+
+- scale invariance
+
+- sql dump postgresql
+- granularity adjustment VAR
+- use case for closure log indent
+- webscrapping airlines tickets 
+- Sample size: 
+	curse of dimension (Bellman 1961)
+	
+- foreign embassy in berlin
+- gtfs neo4j berlin 
+- gtfs shiny app berlin
+	
+
+******************
+* Blog setting
+
+- Add links to other website part in the about.md file
+
+

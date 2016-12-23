@@ -1,0 +1,24 @@
+---
+title: "Famous Dataset"
+output: github_document
+---
+
+## Flea Beetles
+- Dataset: http://lib.stat.cmu.edu/DASL/Stories/FleaBeetles.html 
+- Method: ***LDA***
+- Litterature: 
+- Tutorial: https://fr.wikipedia.org/wiki/Analyse_discriminante
+- Code:
+
+## Iris Dataset
+- Dataset: https://archive.ics.uci.edu/ml/datasets/Iris
+- Method: ***LDA***
+- Litterature: 
+- Tutorial: https://fr.wikipedia.org/wiki/Analyse_discriminante
+- Code:
+
+
+## Flight Records ("Big Data")
+
+
+## Titanic

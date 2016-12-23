@@ -19,6 +19,25 @@ We can use some javascript libraries or `R` packages to do so.
 
 testing it using another solution (line block)...
 
+```{r}
+
+dplyr::bind_rows(
+c("0","Linear Method for classification"),
+c("1", "Model Discriminant Function for each class")
+)
+| +-- Model Discriminant Function for each class
+| | +-- Linear Regression of an Indicator Matrix
+| | +-- Discriminant Function is the a posteriori Probability
+| | | +-- Logistic Regression
+| | | +-- Linear Discriminant Analysis
+| +-- Model the decision Boundaries directly
+| | +-- Perceptron (Rosenblatt 1958)
+| | +-- Vapnik (1996)
+| | | +-- Optimally separating hyperplan (separable case: )
+| | | +-- Hyperplan that minimizes some measure of overlap (non separable case: chapter 12)
+
+```
+
 +-- Linear Method for classification
 | +-- Model Discriminant Function for each class
 | | +-- Linear Regression of an Indicator Matrix

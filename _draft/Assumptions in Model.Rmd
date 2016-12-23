@@ -1,0 +1,15 @@
+---
+title: "Untitled"
+author: "Vincent"
+date: "November 6, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Distributional Assumptions
+Ex: Logistic regression has none 
+Harrel page 39
