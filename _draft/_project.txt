@@ -13,7 +13,8 @@
 
 *****************
 * post ideas.
-
+- Draw an image as a Voronoi map
+  http://codegolf.stackexchange.com/questions/50299/draw-an-image-as-a-voronoi-map
 - EM algorithmus pour differencier arriäre plan et avant-plan dans une image
 - compression avec nuees dynamiques dans une shiny app
 http://www.tsi.enst.fr/pages/enseignement/ressources/mti/RVB_ou_LAB/html/mti.html
@@ -23,7 +24,10 @@ http://www.tsi.enst.fr/pages/enseignement/ressources/mti/RVB_ou_LAB/html/mti.htm
 - comparison of color space: the case of distance
 - the best graph to show result of election gewichtet (see vignette of package colorspace)
 
-- network dans la tetralogie
+- network dans la tetralogie 
+  See the game of throne version: 
+  https://github.com/johnymontana/graph-of-thrones)
+  http://www.lyonwj.com/2016/06/26/graph-of-thrones-neo4j-social-network-analysis/
 - bit operation in R 
 	boolean logic
 	mention the 8 bit history (based on human vision)

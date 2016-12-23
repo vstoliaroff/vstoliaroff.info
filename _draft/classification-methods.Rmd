@@ -1,17 +1,11 @@
 ---
-title: "Representing tree structures in markdown documents"
+title: "Representing tree structures in Rmarkdown documents"
 layout: post
 comments: true
-tags: [data.tree, tree, markdown]
+tags: [classification]
 ---
 
-## Question of the day  
-The shell `tree` command produces nice indented listing of files and directories. It would be nice to get the same kind of output for any kind of 
-tree structure. How can we directly do that in markdown syntax? Since the question was already asked on [stackoverflow](<http://stackoverflow.com/questions/19699059/representing-directory-file-structure-in-markdown-syntax>), I am writing here about some extra alternative solutions.  
 
-## Ideas and solutions  
-
-Example of Platon...
 Let's say, I want to display the ontology of different linear methods of classification in the form of an entity relationship diagram.  
 Based on the grouping detailled in the chapter IV of the book [Element of Statistical Learning](http://statweb.stanford.edu/~tibs/ElemStatLearn/)
 We can use some javascript libraries or `R` packages to do so. 
