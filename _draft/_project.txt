@@ -13,6 +13,8 @@
 
 *****************
 * post ideas.
+- what is a good ranking graph (RProject ranking-visualize)
+- Plot caledonia lagon with marmap et plotly
 - Draw an image as a Voronoi map
   http://codegolf.stackexchange.com/questions/50299/draw-an-image-as-a-voronoi-map
 - EM algorithmus pour differencier arriäre plan et avant-plan dans une image

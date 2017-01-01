@@ -16,13 +16,13 @@ Here I am blogging about thematized issues where the focus is a specific questio
 
 I try to stick to the following outline which could be thought of as my *post manifesto* or *post sequence scenario*.
 
-* One Problem: A good post should start with a problem to solve rather than abstract development about tools and methodologies.  The story is the emphasis more than data, models and coding subtleties. 
+* One Problem: A good post should start with a problem to solve. Abstract development about tools and methodologies are cool but stories should be the emphasis more than data, models and coding subtleties. 
 * A data science based attempt at solution.
 Here come the data science tools in play. Statistical facts and methods should help us tackle the issue at stake.  
 * Credits: 
 Trigger for posting and what brought me on track for solutions are mostly related to readings, job assignments I receive or news feeds. I refer them in this section.  
 * Factory: 
-Reproducibility of post and analysis should be ensured with links to my [Github](https://github.com/vincesto) or other repositories. 
+Reproducibility of post and analysis should be ensured with links to my [Github](https://github.com/vstoliaroff) or other repositories. 
 
 
 ### Logbuch 
