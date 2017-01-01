@@ -90,7 +90,7 @@ children_n<-function(mytaxa,mylevel){
 }
 ```
 
-The output is a data frame with parents and children relationships which 
+The output is a data frame with parents and children relationships. 
 
 
 ```r
