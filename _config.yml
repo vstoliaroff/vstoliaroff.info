@@ -21,6 +21,7 @@ gems:
 paginate: 5
 paginate_path: "page:num"
 
+google_analytics: UA-89702446-1
 
 # About/contact
 author:

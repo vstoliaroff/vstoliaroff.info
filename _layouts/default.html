@@ -43,5 +43,7 @@
         }, false);
       })(document);
     </script>
+{% include analytics.html %}
+{% if page.comments %}{% include disqus_comments.html %}{% endif %}
   </body>
 </html>
