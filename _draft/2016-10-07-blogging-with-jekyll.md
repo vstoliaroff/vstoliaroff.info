@@ -58,6 +58,14 @@ There are different ways:
 -   ***Clone and build locally***: Clone an existing repo locally, build locally and serve it.
 -   ***Build from scratch locally***: use command line `jekyll new`. Requires a few configuration effort...
 
+#### Environment induced differences
+Compile Rmd within Rstudio, 
+Compile Rmd with knitr::render
+Build with servr
+Build with bash jekyll serve...
+
+Differences in engine (pandoc...), and css 
+
 ### 2. Hosting
 
 #### On GitHub
@@ -118,4 +126,30 @@ More specifically: (Credit: <http://jekyllbootstrap.com/> for the blockquote und
         The liquid syntax and variables passed into the liquid templates.
 
     All the data objects available to you in the templates via Liquid are outlined in the API Section of Jekyll-Bootstrap. You can also read the original documentation here: http://jekyllrb.com/docs/variables/
+
+### . A few tricks
+
+#### Img inclusion 
+
+- Reference, legend 
+use captioner http://derekogle.com/fishR/2015-09-17-Figure-Table-Captions-in-Markdown
+
+- Directory structure, combination with Liquid
+https://eduardoboucas.com/blog/2014/12/07/including-and-managing-images-in-jekyll.html
+
+- Center Img with custom css
+http://rmarkdown.rstudio.com/html_document_format.html
+https://nsaunders.wordpress.com/2012/08/27/custom-css-for-html-generated-using-rstudio/
+https://thornelabs.net/2014/11/30/centering-images-with-jekyll-and-markdown.html
+
+Do not forget the to compile the following r chunk if you use custom css and output your html doc in Rstudio
+options(rstudio.markdownToHTML =
+          function(inputFile, outputFile) {
+            require(markdown)
+            markdownToHTML(inputFile, outputFile,
+                           stylesheet='/usr/lib/rstudio/resources/vstoliaroff.css')
+          }
+)
+
+
 

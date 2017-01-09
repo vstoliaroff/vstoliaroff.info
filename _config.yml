@@ -7,8 +7,8 @@ permalink:           pretty
 # Setup
 title:               Scriptorium Vincentii
 # tagline:             'A place for my 2 cents on stuffs'
-#description:         '<img src="https://github.com/vincesto/vstoliaroff.info/public/scriptorium.png" height=60 </img>' 
-url:                 https://vstoliaroff.info
+#description:         '<img src="https://github.com/vstoliaroff/vstoliaroff.info/public/scriptorium.png" height=60 </img>' 
+url:                 http://vstoliaroff.info
 baseurl:             ''
 paginate:            5
 
@@ -26,7 +26,7 @@ google_analytics: UA-89702446-1
 # About/contact
 author:
   name:              Vincent Stoliaroff
-  url:               https://vstoliaroff.info
+  url:               http://vstoliaroff.info
   email:             vstoliaroff@gmail.com
 
 

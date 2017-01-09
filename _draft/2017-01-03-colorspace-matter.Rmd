@@ -1,0 +1,13 @@
+---
+title: "Why colorspace matter"
+layout: post
+comments: true
+tags: [data.tree, R Markdown, R]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment=NA, message=FALSE, R.options=list(width=110))
+```
+
+
+## R Markdown
