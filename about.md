@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-> Hey there! My name is Vincent Stoliaroff. I am a born-again data scientist with a  background in economics and statistics. I have started this blog to structure a few  thoughts I had on several topics of interest to me: `R` programming, computer and data  science (at large!).  
+> Hey there! My name is Vincent Stoliaroff. I have started this blog to structure a few  thoughts I had on several topics of interest to me: `R` programming, computer and data  science (at large!).  
 > Do you have questions or suggestions? Feel free to [email me](vstoliaroff@gmail.com) or ask me on [Twitter](https://twitter.com/vstoliaroff).
 > Thanks for reading!
 

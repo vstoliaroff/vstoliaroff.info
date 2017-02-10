@@ -8,12 +8,17 @@
 - famous-dataset
 - finance
 - VaR
+- how-to
 
 
 
 *****************
 * post ideas.
+
+- Traveling salesman art and dijkstra algorithm
+- object recognition in R using 
 - what is a good ranking graph (RProject ranking-visualize)
+- Parrainage elections presidentielles
 - Plot caledonia lagon with marmap et plotly
 - Draw an image as a Voronoi map
   http://codegolf.stackexchange.com/questions/50299/draw-an-image-as-a-voronoi-map
