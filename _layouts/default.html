@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
   {% include head.html %}
-
   <body class="theme-base-0d">
-
     {% include sidebar.html %}
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
+
+  <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+       content to avoid any CSS collisions with our real content. -->
+     <div class="wrap">
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
@@ -23,6 +21,7 @@
         {{ content }}
       </div>
     </div>
+
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
@@ -45,5 +44,8 @@
     </script>
 {% include analytics.html %}
 {% if page.comments %}{% include disqus_comments.html %}{% endif %}
+<!-- <script id="dsq-count-scr" src="//scriptorium-vincentii.disqus.com/count.js" async></script> -->
   </body>
 </html>
+
+

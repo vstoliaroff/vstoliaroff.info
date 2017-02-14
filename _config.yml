@@ -9,17 +9,17 @@ title:               Scriptorium Vincentii
 # tagline:             'A place for my 2 cents on stuffs'
 #description:         '<img src="https://github.com/vstoliaroff/vstoliaroff.info/public/scriptorium.png" height=60 </img>' 
 url:                 http://vstoliaroff.info
-baseurl:             ''
-paginate:            5
+#baseurl:             ''
+disqus_shortname: vincentstoliaroff
 
 gems:
   # https://help.github.com/articles/atom-rss-feeds-for-github-pages/
-  #- jekyll-gist
+  - jekyll-gist
   #- jekyll-sitemap
-  - jekyll-paginate
+  - jekyll-paginate # only relevant if paginate and paginate_path are active
 
-paginate: 5
-paginate_path: "page:num"
+#paginate: nil
+#paginate_path: "page:num"
 
 google_analytics: UA-89702446-1
 

@@ -16,7 +16,7 @@ Here I am blogging about thematized issues where the focus is a specific questio
 
 I try to stick to the following outline which could be thought of as my *post manifesto* or *post sequence scenario*.
 
-* One Problem: A good post should start with a problem to solve. Abstract development about tools and methodologies are cool but stories should be the emphasis more than data, models and coding subtleties. 
+* One Problem: abstract development about tools and methodologies are cool but stories should be the emphasis more than data, models and coding subtleties. 
 * A data science based attempt at solution.
 Here come the data science tools in play. Statistical facts and methods should help us tackle the issue at stake.  
 * Credits: 
@@ -24,10 +24,6 @@ Trigger for posting and what brought me on track for solutions are mostly relate
 * Factory: 
 Reproducibility of post and analysis should be ensured with links to my [Github](https://github.com/vstoliaroff) or other repositories. 
 
-
-### Logbuch 
-My *vademecum* of code snippets. I throw there any piece of program that I may have used once and could reapply in other circumstances. I use it as a quick index for code refactoring techniques and  
-To keep it light, I link most of the entries to Gist or other code repos.
 
 ### Tags
 If this blog becomes big one day, you should find your way into it by searching relevant Tags here.  

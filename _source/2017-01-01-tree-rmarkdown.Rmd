@@ -1,7 +1,9 @@
 ---
 title: "Displaying tree outlines in R Markdown documents"
 layout: post
-comments: true
+comments: false
+date: "January 1, 2017"
+category: blog
 tags: [data.tree, R Markdown, R]
 ---
 
